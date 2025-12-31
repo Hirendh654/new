@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HOVOEdit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="brand">
+      <span class="logo">✦</span>
+      <h2>HOVOEdit</h2>
+    </div>
+    <button id="theme-toggle" class="theme-btn">🌙 Dark</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Welcome to <span>HOVOEdit</span></h1>
+    <p>Edit • Create • Inspire</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>About HOVOEdit</h2>
+    <p>
+      HOVOEdit is a creative platform focused on modern design,
+      editing excellence, and innovation.
+    </p>
+  </section>
+
+  <!-- RATING -->
+  <section class="rating">
+    <h2>Rate Your Experience</h2>
+    <div class="stars">
+      <span class="star">★</span>
+      <span class="star">★</span>
+      <span class="star">★</span>
+      <span class="star">★</span>
+      <span class="star">★</span>
+    </div>
+    <p id="rating-text">0 / 5</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 HOVOEdit | Created by HOVO</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
