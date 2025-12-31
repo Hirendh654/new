@@ -53,3 +53,110 @@
   <script src="script.js"></script>
 </body>
 </html>
+/* THEME VARIABLES */
+:root {
+  --bg: #020617;
+  --text: #e5e7eb;
+  --card: rgba(255,255,255,0.1);
+  --accent: linear-gradient(90deg,#38bdf8,#a855f7,#facc15);
+}
+
+body.light {
+  --bg: #f8fafc;
+  --text: #020617;
+  --card: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.4s;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: var(--card);
+  backdrop-filter: blur(10px);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 28px;
+  color: #facc15;
+}
+
+.theme-btn {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: var(--accent);
+  color: white;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 span {
+  background: var(--accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about,
+.rating {
+  background: var(--card);
+  margin: 20px;
+  border-radius: 20px;
+}
+
+/* RATING */
+.stars {
+  margin: 20px 0;
+}
+
+.star {
+  font-size: 40px;
+  cursor: pointer;
+  color: gray;
+}
+
+.star.active {
+  color: gold;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.8;
+}
